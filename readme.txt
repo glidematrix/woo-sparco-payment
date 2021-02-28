@@ -14,7 +14,7 @@ Sparco Payment Gateway for WooCommerce is host payment gateway plugin allowing m
 
 Sparco payment gateway for WooCommerce.
 
-To get started, signup for a Sparco merchant account [here](https://merchants.sparco.io)
+To get started, signup for a Sparco merchant account [here](https://merchant.sparco.io)
 
 
 Sparco Payment Gateway for WooCommerce plugin supports the following:
