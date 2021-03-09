@@ -1,4 +1,12 @@
 <?php
+
+
+
+
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+
 /**
  * Sparco Payment Gateway.
  *
@@ -87,7 +95,7 @@ class WC_Gateway_Sparco extends WC_Payment_Gateway {
 				}
 				
 			}
-			// $payload['sig_verification_results'] = $sig_verification_results;
+
 		} catch (Exception $e) {
 			$res['errMsg'] = $e->getMessage();
 		}
@@ -104,7 +112,7 @@ class WC_Gateway_Sparco extends WC_Payment_Gateway {
 		// $this->icon               = apply_filters( 'woocommerce_cod_icon', '' );
 		$this->order_button_text = __( 'Proceed to Sparco', 'sparco-gateway' );
 		$this->icon=apply_filters(
-			'woocommerce_sparco_icon', plugins_url('../assets/logo-icon-mini.png', __FILE__)
+			'woocommerce_sparco_icon', plugins_url('../assets/images/logo-icon-mini.png', __FILE__)
 		);
 		$this->method_title       = __( 'Sparco Payment Gateway', 'sparco-gateway' );
 		$this->pub_key            = __( 'Add Sparco Public Key', 'sparco-gateway' );

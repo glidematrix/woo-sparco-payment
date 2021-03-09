@@ -1,7 +1,7 @@
 <?php
 /*
- * Plugin Name: Sparco Payment Gateway for WooCommerce 
- * Plugin URI: https://mundia.me/woocommerce/plugins/sparco-payment-gateway-plugin.html
+ * Plugin Name: Payment Gateway for Sparco on WooCommerce
+ * Plugin URI: https://mundia.me/woocommerce/plugins/wc-sparco-payment-gateway
  * Description: Accept Mobile Money and Credit Card payments.
  * Version: 1.0.0
  * Author: Mundia Mwala
